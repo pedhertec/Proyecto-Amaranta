@@ -1,0 +1,51 @@
+.logobar{
+    display: flex;
+    background: linear-gradient(110deg, #f9e2dc 12%, hsla(169, 24%, 83%, 0.56) 12%);
+
+    .imglogo   {
+        margin: 10px 10px 10px 100px;
+    }
+    li{
+        list-style: none;
+        display: inline;
+        justify-content: center;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Poiret One', monospace;
+        font-size: 3vh;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .logoicon { 
+        display: flex;
+        align-items: center;
+        a{
+            margin: 10px 30px 10px 10px;
+        }
+    }
+}
+
+/* esto es para el carrusel  */
+/* +************************ */
+.slider-container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    }
+
+.slider-item {
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    }

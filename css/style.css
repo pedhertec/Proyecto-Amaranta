@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.logobar {
+  display: flex;
+  background: linear-gradient(110deg, #f9e2dc 12%, rgba(201, 222, 218, 0.56) 12%); }
+  .logobar .imglogo {
+    margin: 10px 10px 10px 100px; }
+  .logobar li {
+    list-style: none;
+    display: inline;
+    justify-content: center; }
+  .logobar a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 3vh; }
+  .logobar .navbar {
+    display: flex;
+    align-items: center;
+    margin: 0px auto; }
+  .logobar .logoicon {
+    display: flex;
+    align-items: center; }
+    .logobar .logoicon a {
+      margin: 10px 30px 10px 10px; }
+
+/* esto es para el carrusel  */
+/* +************************ */
+.slider-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory; }
+
+.slider-item {
+  flex: 0 0 100%;
+  width: 100%;
+  object-fit: cover;
+  scroll-snap-align: center; }
+
+.footer-containter {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(110deg, #f9e2dc 12%, rgba(201, 222, 218, 0.56) 12%); }
