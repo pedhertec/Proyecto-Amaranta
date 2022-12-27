@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "test": "echo \"Error: no test specified\" && exit 1",
+=======
+>>>>>>> 7cdb08bc48446bc3d215d0cab68306606bb010d0
     "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
@@ -17,5 +20,12 @@
     "url": "https://github.com/pedhertec/Proyecto-Amaranta/issues"
   },
   "homepage": "https://github.com/pedhertec/Proyecto-Amaranta#readme",
+<<<<<<< HEAD
+=======
+  "dependencies": {
+    "node-sass": "npm:sass@^1.56.1",
+    "nodemon": "^2.0.20"
+  },
+>>>>>>> 7cdb08bc48446bc3d215d0cab68306606bb010d0
   "description": ""
 }

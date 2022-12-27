@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 * {
   margin: 0;
@@ -52,3 +53,7 @@
   justify-content: center;
   align-items: center;
   background: linear-gradient(110deg, #f9e2dc 12%, rgba(201, 222, 218, 0.56) 12%); }
+=======
+h1 {
+  background-color: aqua; }
+>>>>>>> 7cdb08bc48446bc3d215d0cab68306606bb010d0
