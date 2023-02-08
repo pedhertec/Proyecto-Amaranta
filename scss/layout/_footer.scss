@@ -1,0 +1,12 @@
+/* *************** */
+/* CSS para footer */
+/* *************** */
+.footer-containter{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(110deg, #f9e2dc 12%, hsla(169, 24%, 83%, 0.56) 12%);
+    font-family: 'Poiret One', monospace;
+}

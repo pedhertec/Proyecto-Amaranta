@@ -1,0 +1,149 @@
+/* *************** */
+/* CSS para header */
+/* *************** */
+.logobar {
+    display: flex;
+    background: linear-gradient(110deg, #f9e2dc 12%, #c9deda8f 12%);
+    width: 100%;
+    height: 11vh;
+
+    .imglogo {
+        margin: 10px 10px 10px 100px;
+    }
+
+    .imglogoblanco {
+        margin: 10px 10px 10px 100px;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+        justify-content: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        text-align: center;
+        font-family: 'Poiret One', monospace;
+        font-size: 3vh;
+    }
+
+    a:hover {
+        font-size: 3.5vh;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+    }
+
+    .logoIcon {
+        display: flex;
+        align-items: center;
+
+        a {
+            margin: 10px 30px 10px 10px;
+        }
+    }
+
+    .logoIconBlanco {
+        display: flex;
+        align-items: center;
+
+        a {
+            margin: 10px 30px 10px 10px;
+        }
+    }
+
+    .modobar {
+        display: flex;
+        align-items: center;
+        margin: 10px 30px 10px 10px;
+    }
+}
+
+.title-containter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9e2dc;
+    font-family: 'Parisienne';
+    height: 80px;
+}
+
+main{
+    width: 100%;
+    min-height: calc(100vh - (10vh + 11vh));
+}
+
+/* *************** */
+/* CSS para Swiper */
+/* *************** */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.redesBar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0 20px 0 0; 
+}
+
+.redesBar li {
+    list-style: none; 
+    display: flex;
+    align-items: center;
+}
+
+.redesBar li a{
+    margin-right: 5px;
+}
+
+.redesBarBlanco {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0 20px 0 0; 
+}
+
+.redesBarBlanco li {
+list-style: none; 
+display: flex;
+align-items: center;
+}
+
+.redesBarBlanco li a{
+margin-right: 5px;
+}

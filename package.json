@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-amaranta",
+  "version": "1.0.0",
+  "description": "Este proyecto de estudio sobre JS está siendo creado para @amarantavintage, un proyecto familiar de compra y venta de antigüedades.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedhertec/Proyecto-Amaranta.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedhertec/Proyecto-Amaranta/issues"
+  },
+  "homepage": "https://github.com/pedhertec/Proyecto-Amaranta#readme",
+  "dependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "devDependencies": {}
+}

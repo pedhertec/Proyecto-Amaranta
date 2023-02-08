@@ -1,0 +1,101 @@
+/* *************** */
+/* CSS para Cards */
+/* *************** */
+.cards-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap
+}
+
+.cards-ofertas{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardOfertas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    width: 300px;
+    height: 400px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    border-radius: 15px;
+    font-family: 'Poiret One', monospace;
+    img{
+        object-fit: cover;
+        width:100%;
+        height: 180px;
+    }
+}
+
+.tituloCard {
+    font-size: 24px;
+    margin: 10px 10px 0 10px;
+    ;
+}
+
+.cuerpoCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 10px 30px 10px;
+    font-family: 'Parisienne';
+    font-size: 25px;
+    p{
+        color: black;
+        margin-top: 10px;
+    }
+}
+
+.insertAlCarrito {
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.boton-carrito{
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.btn-vaciar{
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+}
+
+.bnt-container{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 30px 0px 0px;
+}
+.btn-asc{
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.btn-des{
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.btn-oferta{
+    width: 150px;
+    text-align: center;
+    font-family: 'Poiret One', monospace;
+    font-size: 15px;
+}

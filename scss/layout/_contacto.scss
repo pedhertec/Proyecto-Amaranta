@@ -1,0 +1,60 @@
+/* ***************** */
+/* CSS para contacto */
+/* ***************** */
+#contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#contact-form{
+    display: flex;
+    flex-direction: column;
+
+    textarea:focus::placeholder {
+        color: white;
+    }
+    input:focus::placeholder {
+        color: white;
+    }
+
+    #inputNombre{
+        font-family: 'Poiret One', monospace;
+        font-size: medium;
+    }
+    #inputMail{
+        font-family: 'Poiret One', monospace;
+        font-size: medium;
+    }
+    #inputMensaje{
+        font-family: 'Poiret One', monospace;
+        font-size: medium;
+    }
+}
+
+#inputNombre{
+    margin-top: 10vh;
+    height: 4vh;
+    width: 30vw;
+}
+
+#inputMail{
+    margin-top: 2vh;
+    height: 4vh;
+    width: 30vw;
+}
+
+#inputMensaje{
+    margin: 2vh 0 1vh 0;
+    height: 8vh;
+    width: 30vw;
+}
+
+.btn-form{
+    font-family: 'Poiret One', monospace;
+    font-size: medium;
+    background: whitesmoke;
+    height: 2.5vh;
+    width: 30vw;
+}
