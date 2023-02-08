@@ -29,8 +29,8 @@ const validarModo = InfoDeLocalS("modoOscuro")
 const validarModoOscuro = ( validarModo ) => {
     if ( validarModo === false ) {
         const cambiarColorLista = document.querySelectorAll(".navbar-nav a")
-        cambiarColorLista.forEach(function(cambiarColor) {
-            cambiarColor.style.color = "";
+        cambiarColorLista.forEach(function(cambiaColor) {
+            cambiaColor.style.color = "";
         })
         const cambiarColorIcons = document.querySelectorAll(".imgRedesBlanco")
         cambiarColorIcons.forEach(function(cambiaColor) {
